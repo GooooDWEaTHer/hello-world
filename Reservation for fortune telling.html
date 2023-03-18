@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation form</title>
+</head>
+<body>
+    <h1>Peek into your future</h1>
+    <p>Complete the form and I'll help you out of the problem by using "Book of Changes"</p>
+    <form action=""></form>
+    <label for="first">First Name</label>
+    <input type="text" id="first" placeholder="First Name" name="firstname" required>
+    <label for="last">Last Name</label>
+    <input type="text" id="last" placeholder="Last Name" name="lastname" required>
+    <div>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="Email here" required>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" placeholder="Password here" required>
+    </div>
+    <hr>
+    <div>
+        <p>What's your problem?</p>
+        <div>
+        <input type="radio" name="questions" id="relationship" value="relationship">
+        <label for="relationship">Relationship</label>
+    </div>
+    <div>
+        <input type="radio" name="questions" id="career" value="career">
+        <label for="career">Career</label>
+    </div>
+    <div>
+        <input type="radio" name="questions" id="health" value="health">
+        <label for="health">Health</label>
+    </div>
+    <div>
+        <input type="radio" name="questions" id="other" value="other">
+        <label for="other">Other</label>
+    </div>
+    
+    
+    <div>
+        <label for="division">Select Your Age Range</label>
+        <select name="division" id="division">
+        <option value="kids">under 18</option>
+        <option value="young">18~30</option>
+        <option value="mid">31~40</option>
+        <option value="other">41~120</option>
+    </select>
+    </div>
+    <div>
+        <label for="division">Your Preferred Pronoun</label>
+        <select name="gender" id="gender">
+        <option value="male">He</option>
+        <option value="female">She</option>
+        <option value="other">It</option>
+        <option value="other">Other</option>
+    </select>
+    </div>
+    <div>
+        <label for="request">Other details</label>
+        <textarea name="request" id="request" cols="30" rows="10"></textarea>
+    </div>
+    <button>Complete</button>
+</div>
+</body>
+</html>
